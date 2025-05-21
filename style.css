@@ -3,6 +3,7 @@
     margin: 0px;
     box-sizing: border-box;
     font-family: Netflix Sans, Helvetica Neue, Segoe UI, Roboto, Ubuntu, sans-serif;
+    /* border: 2px solid red; */
 }
 
 .main {
@@ -10,27 +11,29 @@
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    height: 100vh;
+    height: 100%;
     /* width: 100%; */
 }
 
 .master {
     background: linear-gradient(180deg, rgba(0, 0, 0, 0.8) 0%, rgba(18, 18, 18, 0.8) 50%, rgba(0, 0, 0, 0.8) 100%);
-    height: 100vh;
+    height: 100%;
 
 }
 
 nav {
     display: flex;
-    justify-content: space-between;
+    justify-content:space-between;
     /* background-color: aqua; */
     padding: 10px 150px;
 }
 
 .logo {
-    width: 12.5%;
+    width: 15%;
     color: red;
     fill: currentColor;
+    /* padding:20px 150px; */
+    /* background-color:green; */
 }
 
 /* .arrow {
@@ -48,9 +51,9 @@ nav {
 .nav-btn {
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: end;
     /* background-color: rgb(58, 203, 29); */
-    width: 13%;
+     width: 80%;
     /* color: white; */
     /* border-radius: 5px; */
     /* border: 2px solid blue; */
@@ -127,13 +130,14 @@ p {
     justify-content: center;
     padding-top: 18px;
     width: 100%;
+    /* height: 10%; */
     padding-right: 10px;
     /* background-color: aquamarine; */
 }
 
 .hero-efi {
     width: 25%;
-    height: 7.5vh;
+    /* height: 7.5vh; */
     font-size: 16px;
     padding-left: 15px;
     border: 1px solid grey;
@@ -148,13 +152,17 @@ p {
     align-items: center;
     justify-content: center;
     width: 15%;
-    height: 7.5vh;
+    /* height: 7.5vh; */
     font-size: 25px;
     background-color: red;
     color: white;
     border: 2px solid black;
     border-radius: 5px;
 }
+.hero-efb:hover{
+    background-color: rgb(157, 25, 25);
+}
+
 
 .arrow {
     border: solid white;
@@ -416,7 +424,7 @@ p {
 
 .hero-efi2{
     width: 35%;
-    height: 7.5vh;  
+    /* height: 7.5vh;   */
     font-size: 16px;
     padding-left: 15px;     
     border: 1px solid grey;
@@ -430,7 +438,7 @@ p {
     align-items: center;
     justify-content: center;
     width: 15%;
-    height: 7.5vh;
+    /* height: 7.5vh; */
     font-size: 25px;
     background-color: red;
     color: white;
@@ -499,8 +507,8 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 8%;
-    height:4vh;
+    width: 15%;
+    /* height:8vh; */
     padding: 2px 5px;
     background-color: black;
     color: white;
@@ -520,4 +528,182 @@ p {
     font-size:13.5px !important;
     height: 25vh;
 }
+@media (max-width:1495px){
+    .img_wrapper img{
+        width: 100%; 
+}
+.hero-efb2{
+    width: 25%;
+}
+}
 
+@media (max-width:1095px) {
+    .hero-efb {
+        width: 25%;
+    }
+    .tnimg{
+        padding: 0;
+    }
+}
+@media (max-width:1020px) {
+    nav{
+        padding: 10px 20px;
+    }
+    .img_wrapper h1{
+        font-size: 55px;
+    }
+    .img_wrapper img{
+        width: 100%;
+        height: 100px;
+    }
+    
+}
+@media (max-width:780px) {
+    .edwc{
+        flex-direction: column;
+        align-items: center;
+        
+    }
+    .d1{
+        width: 80%;
+        margin: 15px;
+    }
+    .d2{
+        width: 80%;
+         margin: 15px;
+    }
+    .d3{
+        width: 80%;
+         margin: 15px;
+    }
+    .d4{ 
+        width: 80%;
+         margin: 15px;
+    }
+    .faq h3{
+        font-size: 18px;
+    }
+    .faq-h{
+        /* width: 93%; */
+        align-items: center;
+        margin-left:  10px;
+        
+    }
+    .faq1{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .faq2{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .faq3{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .faq4{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .faq5{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    .faq6{
+        padding:10px 20px;
+        font-size: 18px;
+        width: 85%;
+    }
+    
+    
+}
+@media (max-width:720px) {
+    .hero{
+         padding: 10px 20px;
+    }
+    .hero-t{
+        margin-top: 10px;
+    }
+    .hero-t h1{
+        font-size: 28px;
+    }
+    .hero-ef{
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+    .hero-efi{
+        width: 100%;
+    }
+    .hero-efb{
+        width: 100%;
+    }
+    .tn{
+        margin: 10px;
+        padding: 10px;
+    }
+    .hero-t2{
+        justify-content: start;
+        padding: 10px 20px;
+    }.hero-ef2{
+        padding: 20px 10px;
+        flex-direction: column;
+        align-items: center;
+        justify-content:center ;
+    }
+    .hero-efi2{
+        width: 100%;
+    }
+    .hero-efb2{
+        width: 100%;
+    }
+    .fham{
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .e-btn2{
+         width: 25%;
+    }
+    
+}
+@media (max-width:450px) {
+    .logo{
+        width: 50%;
+    }
+    .hero-t{
+        font-size: 22px  ;
+    }
+    .tn{
+        margin: 10px;
+        padding: 10px;
+    }
+    .faq{
+        padding-left: 10px;
+    }
+    .qc{
+        padding-left: 10px;
+    }
+     .e-btn2{
+         width: 40%;
+    }
+}
+@media (max-width:330px) {
+    nav{
+        flex-direction: column;
+        align-items: center;
+    }
+    .nav-btn{
+           width: auto;
+    }
+     .e-btn2{
+         width: 85%;
+    }
+    
+}
+
+ 
