@@ -137,7 +137,7 @@ p {
 
 .hero-efi {
     width: 25%;
-    /* height: 7.5vh; */
+    height: 60px;
     font-size: 16px;
     padding-left: 15px;
     border: 1px solid grey;
@@ -285,34 +285,38 @@ p {
 
 .d1 {
     width: 20%;
-    height: 20;
-    border: 2px solid white;
-    border-radius: 10px;
+    height: 35vh;
+    border: 2px solid rgb(50, 50, 144);
+    border-radius: 20px;
     padding: 20px 15px;
+    background: linear-gradient(113deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .d2 {
     width: 20%;
-    height: 20;
-    border: 2px solid white;
-    border-radius: 5px;
+    height: 35vh;
+    border: 2px solid  rgb(50, 50, 144) ;
+    border-radius: 20px;
     padding: 20px 15px;
+    background: linear-gradient(113deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .d3 {
     width: 20%;
-    height: 20;
-    border: 2px solid white;
-    border-radius: 5px;
+    height: 35vh;
+    border: 2px solid  rgb(50, 50, 144);
+    border-radius: 20px;
     padding: 20px 15px;
+    background: linear-gradient(113deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .d4 {
     width: 20%;
-    height: 20;
-    border: 2px solid white;
-    border-radius: 5px;
+    height: 35vh;
+    border: 2px solid  rgb(50, 50, 144);
+    border-radius: 20px;
     padding:15px 15px;
+    background: linear-gradient(113deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
 
 .faq {
@@ -424,7 +428,7 @@ p {
 
 .hero-efi2{
     width: 35%;
-    /* height: 7.5vh;   */
+    height: 60px;  
     font-size: 16px;
     padding-left: 15px;     
     border: 1px solid grey;
@@ -507,7 +511,7 @@ p {
     display: flex;
     align-items: center;
     justify-content: space-around;
-    width: 15%;
+    width: 10%;
     /* height:8vh; */
     padding: 2px 5px;
     background-color: black;
@@ -535,6 +539,9 @@ p {
 .hero-efb2{
     width: 25%;
 }
+.e-btn2{
+         width: 10%;
+    }
 }
 
 @media (max-width:1095px) {
@@ -543,6 +550,9 @@ p {
     }
     .tnimg{
         padding: 0;
+    }
+    .e-btn2{
+         width: 15%;
     }
 }
 @media (max-width:1020px) {
@@ -642,6 +652,7 @@ p {
     }
     .hero-efb{
         width: 100%;
+        margin-top: 15px;
     }
     .tn{
         margin: 10px;
@@ -661,6 +672,7 @@ p {
     }
     .hero-efb2{
         width: 100%;
+        margin-top: 15px;
     }
     .fham{
         flex-direction: column;
@@ -682,6 +694,9 @@ p {
         margin: 10px;
         padding: 10px;
     }
+    .img_wrapper h1{
+        font-size: 40px;
+    }
     .faq{
         padding-left: 10px;
     }
@@ -701,7 +716,7 @@ p {
            width: auto;
     }
      .e-btn2{
-         width: 85%;
+         width: 60%;
     }
     
 }
